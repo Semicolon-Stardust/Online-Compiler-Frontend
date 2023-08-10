@@ -7,7 +7,7 @@ function Compiler() {
     <div>
       <>
         <NavbarCompiler />
-        <div className="grid grid-column-1 grid-flow-col">
+        <div className="grid items-center grid-flow-col">
           <MonacoEditor />
           <Output />
         </div>
