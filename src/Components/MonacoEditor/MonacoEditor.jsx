@@ -12,10 +12,10 @@ function MonacoEditor() {
 
 
   return (
-    <div>
+    <div className='mt-[rem]'>
         <Editor
-            height="100vh"
-            width="100%"
+            height="92.9vh"
+            width="50%"
             theme="vs-dark"
             onMount={handleEditorDidMount}
             defaultValue="// some comment"
